@@ -1,0 +1,19 @@
+{
+  "name": "no_smoke",
+  "version": "1.0.0",
+  "description": "E-mail for noSmoke",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tishinskiy Alexandr",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-inline-css": "^3.1.0",
+    "gulp-less": "^3.3.2",
+    "gulp-pug": "^3.3.0"
+  }
+}
