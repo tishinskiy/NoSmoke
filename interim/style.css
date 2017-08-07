@@ -170,10 +170,12 @@ table {
   width: 100%;
 }
 .contact td:nth-child(1) {
-  padding: 0 10px 0 20px;
+  padding-left: 20px;
+  padding-right: 10px;
 }
 .contact td:nth-child(2) {
-  padding: 0 20px 0 10px;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 .contact-header td {
   padding-top: 15px;
@@ -181,6 +183,9 @@ table {
   font-size: 15px;
   font-weight: bold;
   background: url(images/contact.jpg) no-repeat;
+}
+.contact-header td p {
+  margin: 0;
 }
 .contact-header td:nth-child(1) {
   background-position: left 20px bottom;
